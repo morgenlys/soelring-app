@@ -170,16 +170,16 @@ body, html {
 
 .word-slot {
   display: inline-block;
-  width: 80px;
-  height: 45px;
   margin: 5px;
-  position: relative;
+  vertical-align: top;
 }
 
 .placeholder {
-  border: 2px dashed #ccc;
-  border-radius: 10px;
-  background-color: #f8f8f8;
   display: inline-block;
   box-sizing: border-box;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  background-color: #f8f8f8;
+  margin: 5px;
+  vertical-align: middle;
 }
