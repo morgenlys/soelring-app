@@ -168,19 +168,29 @@ body, html {
   text-decoration: underline;
 }
 
-.word-slot {
-  display: inline-block;
-  margin: 5px;
-  vertical-align: top;
+.word {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  margin: 4px;
+  font-size: 16px;
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  line-height: 1;
+  height: 40px;
+  box-sizing: border-box;
 }
 
-
 .placeholder {
-  display: inline-block;
-  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 2px dashed #ccc;
   border-radius: 12px;
   background-color: #f8f8f8;
-  margin: 5px;
-  vertical-align: middle;
+  min-width: 60px; /* wird per JS ggf. überschrieben */
+  height: 40px; /* gleiche Höhe wie .word */
+  margin: 4px;
+  box-sizing: border-box;
 }
