@@ -1,62 +1,62 @@
 [
   {
     "type": "drag-platt-to-de",
-    "question": "Ik hate en hun.",
-    "correct": ["Ich", "habe", "einen", "Hund"],
-    "gloss": ["Ich", "habe", "einen", "Hund"]
+    "question": "Gur Dai",
+    "correct": ["Guten", "Tag"],
+    "gloss": ["Guten", "Tag"]
   },
   {
     "type": "drag-platt-to-de",
-    "question": "Di sunne schient.",
-    "correct": ["Die", "Sonne", "scheint"],
-    "gloss": ["Die", "Sonne", "scheint"]
+    "question": "Hur gair't wat?",
+    "correct": ["Wie", "geht", "es"],
+    "gloss": ["wie", "geht", "es"]
   },
   {
     "type": "drag-platt-to-de",
-    "question": "Wat mekaar du?",
-    "correct": ["Was", "machst", "du"],
-    "gloss": ["Was", "machst", "du"]
+    "question": "Fuul Dank",
+    "correct": ["Vielen", "Dank"],
+    "gloss": ["Vielen", "Dank"]
   },
   {
     "type": "drag-platt-to-de",
-    "question": "Het smäkt gud.",
-    "correct": ["Es", "schmeckt", "gut"],
-    "gloss": ["Es", "schmeckt", "gut"]
+    "question": "Sünhair",
+    "correct": ["Gesundheit"],
+    "gloss": ["Gesundheit"]
   },
   {
     "type": "drag-platt-to-de",
-    "question": "Ik sen moad.",
-    "correct": ["Ich", "bin", "müde"],
-    "gloss": ["Ich", "bin", "müde"]
+    "question": "Jaa",
+    "correct": ["Ja"],
+    "gloss": ["Ja"]
   },
   {
     "type": "drag-platt-to-de",
-    "question": "Wat is det?",
-    "correct": ["Was", "ist", "das"],
-    "gloss": ["Was", "ist", "das"]
+    "question": "Naan",
+    "correct": ["Nein"],
+    "gloss": ["Nein"]
   },
   {
     "type": "drag-platt-to-de",
-    "question": "Hest du tid?",
-    "correct": ["Hast", "du", "Zeit"],
-    "gloss": ["Hast", "du", "Zeit"]
+    "question": "Ik sen litj",
+    "correct": ["Ich", "bin", "klein"],
+    "gloss": ["Ich", "bin", "klein"]
   },
   {
     "type": "drag-platt-to-de",
-    "question": "Wi ga fer en tuur.",
-    "correct": ["Wir", "gehen", "auf", "einen", "Ausflug"],
-    "gloss": ["Wir", "gehen", "auf", "einen", "Ausflug"]
+    "question": "Dü best gurt",
+    "correct": ["Du", "bist", "groß"],
+    "gloss": ["Du", "bist", "groß"]
   },
   {
     "type": "drag-platt-to-de",
-    "question": "De kat süüp milik.",
-    "correct": ["Die", "Katze", "trinkt", "Milch"],
-    "gloss": ["Die", "Katze", "trinkt", "Milch"]
+    "question": "Hi es net",
+    "correct": ["Er", "ist", "nett"],
+    "gloss": ["Er", "ist", "nett"]
   },
   {
     "type": "drag-platt-to-de",
-    "question": "Ik faan ham.",
-    "correct": ["Ich", "fahre", "nach", "Hause"],
-    "gloss": ["Ich", "fahre", "nach", "Hause"]
+    "question": "Gur Nacht",
+    "correct": ["Gute", "Nacht"],
+    "gloss": ["Gute", "Nacht"]
   }
 ]
