@@ -8,7 +8,7 @@ const tasks = [
   {
     "type": "drag-platt-to-de",
     "question": "Hur gair't wat?",
-    "correct": ["Wie", "geht", "es"],
+    "correct": ["Wie", "geht's"],
     "gloss": ["wie", "geht", "es"]
   },
   {
