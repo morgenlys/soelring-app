@@ -32,10 +32,16 @@ function renderDragPlattToDe(task) {
 
   // Wortbausteine
   const shuffled = [...task.correct].sort(() => Math.random() - 0.5);
-  shuffled.forEach(word => {
-    const el = createWordElement(word, false);
-    wordChoices.appendChild(el);
-  });
+  wordChoices.innerHTML = "";
+shuffled.forEach((word, index) => {
+  const slot = document.createElement("div");
+  slot.className = "word-slot";
+  slot.dataset.index = index;
+
+  const wordEl = createWordElement(word, false, index);
+  slot.appendChild(wordEl);
+  wordChoices.appendChild(slot);
+});
 
   // Button Click
   checkButton.onclick = () => {
