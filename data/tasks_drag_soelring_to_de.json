@@ -1,0 +1,62 @@
+[
+  {
+    "type": "drag-platt-to-de",
+    "question": "Ik hate en hun.",
+    "correct": ["Ich", "habe", "einen", "Hund"],
+    "gloss": ["Ich", "habe", "einen", "Hund"]
+  },
+  {
+    "type": "drag-platt-to-de",
+    "question": "Di sunne schient.",
+    "correct": ["Die", "Sonne", "scheint"],
+    "gloss": ["Die", "Sonne", "scheint"]
+  },
+  {
+    "type": "drag-platt-to-de",
+    "question": "Wat mekaar du?",
+    "correct": ["Was", "machst", "du"],
+    "gloss": ["Was", "machst", "du"]
+  },
+  {
+    "type": "drag-platt-to-de",
+    "question": "Het smäkt gud.",
+    "correct": ["Es", "schmeckt", "gut"],
+    "gloss": ["Es", "schmeckt", "gut"]
+  },
+  {
+    "type": "drag-platt-to-de",
+    "question": "Ik sen moad.",
+    "correct": ["Ich", "bin", "müde"],
+    "gloss": ["Ich", "bin", "müde"]
+  },
+  {
+    "type": "drag-platt-to-de",
+    "question": "Wat is det?",
+    "correct": ["Was", "ist", "das"],
+    "gloss": ["Was", "ist", "das"]
+  },
+  {
+    "type": "drag-platt-to-de",
+    "question": "Hest du tid?",
+    "correct": ["Hast", "du", "Zeit"],
+    "gloss": ["Hast", "du", "Zeit"]
+  },
+  {
+    "type": "drag-platt-to-de",
+    "question": "Wi ga fer en tuur.",
+    "correct": ["Wir", "gehen", "auf", "einen", "Ausflug"],
+    "gloss": ["Wir", "gehen", "auf", "einen", "Ausflug"]
+  },
+  {
+    "type": "drag-platt-to-de",
+    "question": "De kat süüp milik.",
+    "correct": ["Die", "Katze", "trinkt", "Milch"],
+    "gloss": ["Die", "Katze", "trinkt", "Milch"]
+  },
+  {
+    "type": "drag-platt-to-de",
+    "question": "Ik faan ham.",
+    "correct": ["Ich", "fahre", "nach", "Hause"],
+    "gloss": ["Ich", "fahre", "nach", "Hause"]
+  }
+]

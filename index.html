@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sölring lernen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <div class="lesson-area">
+      <div class="prompt">
+        <h2 id="platt-sentence">Satz wird geladen...</h2>
+      </div>
+      <div class="dropzone-area" id="dropzone"></div>
+      <div class="word-choices" id="wordChoices"></div>
+    </div>
+
+    <div class="bottom-bar">
+      <button id="checkButton">Überprüfen</button>
+      <div id="feedback"></div>
+    </div>
+  </div>
+
+  <!-- Modulstruktur -->
+  <script src="tasks.js"></script>
+  <script src="lib/dragdrop.js"></script>
+  <script src="render/dragplatttode.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

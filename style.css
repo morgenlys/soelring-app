@@ -1,0 +1,169 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.lesson-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 25%;
+  background-color: white;
+}
+
+.prompt {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.dropzone-area {
+  min-height: 70px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #fdfdfd;
+  margin-bottom: 20px;
+}
+
+.word-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.word {
+  background-color: #e0e0e0;
+  padding: 10px 14px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s;
+  position: relative;
+  font-family: Georgia, serif;
+}
+
+.word:hover {
+  background-color: #555;
+  color: white;
+}
+
+.bottom-bar {
+  background-color: #eaeaea;
+  padding: 20px 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  height: 90px;
+  transition: background-color 0.3s;
+  flex-direction: row-reverse;
+}
+
+.bottom-bar.correct {
+  background-color: #e0f7e9;
+}
+
+.bottom-bar.incorrect {
+  background-color: #fcebea;
+}
+
+#checkButton {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s, width 0.3s;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  white-space: nowrap;
+  min-width: 110px;
+}
+
+#checkButton:hover {
+  background-color: #000;
+}
+
+#checkButton.green {
+  background-color: #2d8b57;
+}
+#checkButton.green:hover {
+  background-color: #1f6c40;
+}
+
+#checkButton.red {
+  background-color: #c0392b;
+}
+#checkButton.red:hover {
+  background-color: #922b20;
+}
+
+#checkButton.disabled {
+  background-color: #eaeaea;
+  color: #aaa;
+  cursor: default;
+  pointer-events: none;
+}
+
+#feedback {
+  font-size: 16px;
+  color: #333;
+  font-family: Georgia, serif;
+  text-align: left;
+  flex-grow: 1;
+}
+
+/* Tooltip und zu übersetzender Satz */
+.platt-word {
+  font-size: 36px;
+  font-family: Georgia, serif;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: help;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: Georgia, serif;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  color: black;
+  font-weight: normal;
+}
+
+.platt-word:hover .tooltip {
+  opacity: 1;
+}
+
+.platt-word:hover {
+  text-decoration: underline;
+}
